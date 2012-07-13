@@ -1,0 +1,10 @@
+[global]
+ipsec saref = yes
+[lns default]
+local ip = <%= serverIp %>
+ip range = <%= ipRange %>
+refuse pap = yes
+require authentication = yes
+ppp debug = yes
+length bit = yes
+pppoptfile = /etc/ppp/options.xl2tpd

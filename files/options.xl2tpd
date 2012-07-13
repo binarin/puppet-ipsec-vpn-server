@@ -1,0 +1,12 @@
+require-mschap-v2
+asyncmap 0
+auth
+crtscts
+lock
+hide-password
+modem
+debug
+name l2tpd
+proxyarp
+lcp-echo-interval 10
+lcp-echo-failure 100
